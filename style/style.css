@@ -370,13 +370,19 @@ p {
   text-align: left; }
 
 /* Portrait */
-@media (max-width: 991px) {
-  .footer-media {
-    text-align: center; }
-
-  .footer-text {
-    text-align: center;
-    margin-top: 15px; } }
+@media (max-width: 806px) {
+  .phone-transparent {
+    background-image: url("../style/images/phone-transparent-xs.png");
+    margin: auto;
+    margin-bottom: 50px;
+    width: 262px;
+    height: 500px; }
+    .phone-transparent iframe {
+      position: absolute;
+      top: 57px;
+      left: 21px;
+      width: 217px;
+      height: 383px; } }
 @media (max-width: 767px) {
   body {
     background: white; }
@@ -386,12 +392,12 @@ p {
     margin: 25px auto; }
 
   h1 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 10px;
     margin-bottom: 10px; }
     h1.special {
-      padding-top: 30px; }
+      padding-top: 120px; }
 
   p {
     font-size: 13px;
@@ -431,34 +437,58 @@ p {
     font-size: 12px; }
 
   .cloud-container {
-    height: 60px;
-    margin-bottom: 10px; }
+    height: 90px;
+    margin-bottom: 25px; }
     .cloud-container .cloud-text {
-      font-size: 14px; }
+      font-size: 16px; }
+
+  .call-to-action-wrap .call-to-action {
+    padding-left: 5px;
+    padding-bottom: 5px; }
+    .call-to-action-wrap .call-to-action .call-to-action-text {
+      font-size: 16px; }
+      .call-to-action-wrap .call-to-action .call-to-action-text img {
+        padding-left: 25px; } }
+@media (max-width: 667px) {
+  body {
+    overflow-x: hidden; }
+
+  .logo {
+    width: 100%; }
+
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px; }
+    h1.special {
+      padding-top: 108px; }
+
+  p.subtitle {
+    font-size: 13px; }
+
+  .cloud-container {
+    height: 80px;
+    margin-bottom: 16px; }
+    .cloud-container .cloud-text {
+      font-size: 16px; }
 
   .call-to-action-wrap {
-    margin-top: 15px; }
+    margin-top: 40px; }
     .call-to-action-wrap .call-to-action {
-      border: 1px solid #8bc34a;
-      border-bottom: 1px solid #8bc34a;
-      padding-left: 5px;
-      padding-bottom: 5px; }
-      .call-to-action-wrap .call-to-action .call-to-action-text {
-        font-size: 16px; }
-        .call-to-action-wrap .call-to-action .call-to-action-text img {
-          padding-left: 25px;
-          display: none; }
+      padding-left: 10px;
+      padding-bottom: 8px; }
 
   .phone-transparent {
-    background-image: url("../style/images/phone-transparent-xs.png");
-    margin: auto;
-    width: 262px;
-    height: 500px; }
-    .phone-transparent iframe {
-      position: absolute;
-      top: 57px;
-      left: 21px;
-      width: 217px;
-      height: 383px; } }
+    margin-bottom: 60px; }
+
+  .arrow-box {
+    padding: 2px; }
+
+  .image-box {
+    width: 110px; }
+
+  .logo-footer {
+    width: 135px; } }
 
 /*# sourceMappingURL=style.css.map */
