@@ -487,7 +487,10 @@ p {
 
   .arrow_box {
     padding: 0;
-    height: 170px; }
+    height: 100px; }
+
+  .boxes {
+    margin-bottom: 30px; }
 
   .image-box {
     width: 110px; }
@@ -544,7 +547,10 @@ p {
     margin-bottom: 15px; }
 
   .line {
-    display: none; } }
+    display: none; }
+
+  .page-title {
+    margin: -23px auto 15px auto; } }
 @media (max-width: 425px) {
   .logo {
     height: 70px; }

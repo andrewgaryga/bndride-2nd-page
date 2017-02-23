@@ -625,7 +625,10 @@ p {
     }
     .arrow_box {
         padding: 0;
-        height: 170px;
+        height: 100px;
+    }
+    .boxes {
+        margin-bottom: 30px;
     }
     .image-box {
         width: 110px;
@@ -697,6 +700,9 @@ p {
     }
     .line {
         display: none;
+    }
+    .page-title {
+        margin: -23px auto 15px auto;
     }
 }
 
