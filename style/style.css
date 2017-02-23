@@ -382,7 +382,21 @@ p {
       top: 57px;
       left: 21px;
       width: 217px;
-      height: 383px; } }
+      height: 383px; }
+
+  .cloud-container {
+    height: 90px;
+    margin-bottom: 25px; }
+    .cloud-container .cloud-text {
+      font-size: 16px; }
+
+  .call-to-action-wrap .call-to-action {
+    padding-left: 5px;
+    padding-bottom: 5px; }
+    .call-to-action-wrap .call-to-action .call-to-action-text {
+      font-size: 16px; }
+      .call-to-action-wrap .call-to-action .call-to-action-text img {
+        padding-left: 25px; } }
 @media (max-width: 767px) {
   body {
     background: white; }
@@ -434,21 +448,7 @@ p {
     height: 130px; }
 
   .well {
-    font-size: 12px; }
-
-  .cloud-container {
-    height: 90px;
-    margin-bottom: 25px; }
-    .cloud-container .cloud-text {
-      font-size: 16px; }
-
-  .call-to-action-wrap .call-to-action {
-    padding-left: 5px;
-    padding-bottom: 5px; }
-    .call-to-action-wrap .call-to-action .call-to-action-text {
-      font-size: 16px; }
-      .call-to-action-wrap .call-to-action .call-to-action-text img {
-        padding-left: 25px; } }
+    font-size: 12px; } }
 @media (max-width: 667px) {
   body {
     overflow-x: hidden; }
