@@ -384,6 +384,13 @@ p {
   color: white;
   margin-bottom: 25px; }
 
+.footer span {
+  font-family: "Eight One";
+  display: inline-block;
+  color: #0C6837;
+  font-weight: bold;
+  font-size: 20px; }
+
 /* Portrait */
 @media (max-width: 991px) {
   .arrow_box {
