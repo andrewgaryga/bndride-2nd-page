@@ -399,7 +399,12 @@ p {
 @media (max-width: 991px) {
   .arrow_box {
     height: 120px;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  h1 {
+    font-size: 22px; }
+    h1.special {
+      padding-top: 145px; } }
 @media (max-width: 806px) {
   .phone-transparent {
     background-image: url("../style/images/phone-transparent-xs.png");
@@ -429,7 +434,12 @@ p {
         padding-left: 25px; }
 
   .app-wrap {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+
+  h1 {
+    font-size: 22px; }
+    h1.special {
+      padding-top: 145px; } }
 @media (min-width: 589px) {
   .container {
     width: 590px; } }
@@ -455,7 +465,7 @@ p {
 
   h1.special {
     margin-top: 120px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     padding: 10px;
     margin-bottom: 10px; }

@@ -498,6 +498,13 @@ p {
         height: 120px;
         margin-bottom: 0;
     }
+    h1 {
+        font-size: 22px;
+
+        &.special {
+            padding-top: 145px;
+        }
+    }
 }
 @media (max-width: 806px) {
     .phone-transparent {
@@ -546,6 +553,13 @@ p {
     .app-wrap {
         margin-bottom: 15px;
     }
+    h1 {
+        font-size: 22px;
+
+        &.special {
+            padding-top: 145px;
+        }
+    }
 }
 @media (min-width: 589px)  {
     .container {
@@ -582,7 +596,7 @@ p {
     }
     h1.special {
         margin-top: 120px;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
         padding: 10px;
         margin-bottom: 10px;
