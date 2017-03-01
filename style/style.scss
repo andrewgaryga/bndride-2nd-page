@@ -962,8 +962,35 @@ p {
     }
 }
 
+@media (max-width: 412px)  {
+    h1 {
+
+        &.special {
+            font-size: 14.7px;
+        }
+    }
+    p {
+
+        &.subtitle {
+            font-size: 14.7px;
+        }
+    }
+}
+
 @media (max-width: 382px)  {
     .arrow_box {
         height: 132px;
+    }
+    h1 {
+
+        &.special {
+            font-size: 14px;
+        }
+    }
+    p {
+
+        &.subtitle {
+            font-size: 14px;
+        }
     }
 }
