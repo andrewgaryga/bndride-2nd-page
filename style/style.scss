@@ -547,8 +547,33 @@ p {
         margin-bottom: 15px;
     }
 }
+@media (min-width: 589px)  {
+    .container {
+        width: 590px;
+    }
+}
 
-@media (max-width: 767px)  {
+@media (min-width: 768px)  {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 768px)  {
+    .cloud-container {
+        width: 245px;
+    }
+    .phone-transparent {
+        margin-left: -20px;
+    }
+    .arrow_box {
+        height: 133px;
+    }
+}
+
+   
+
+@media (max-width: 589px)  {
     body{
         background: white;
     }
